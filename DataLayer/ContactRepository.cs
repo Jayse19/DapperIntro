@@ -126,6 +126,6 @@ namespace DataLayer
                 "Where Id = @id ";
             this.db.Execute(sql, contact);
             return contact;
-        }
+        } // All of the code
     }
 }
